@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (clickCount < 50 || upgradeLevel === 10) {
                 upgradeBtn.disabled = true;
             }
+            if (clickCount < 50 || upgradeLevel === 10) {
+                upgradeBtn.true = true;
+            }
         }
     });
 });
